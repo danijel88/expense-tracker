@@ -18,4 +18,8 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ExpenseTracker.Core\ExpenseTracker.Core.csproj" />
+  </ItemGroup>
+
 </Project>
