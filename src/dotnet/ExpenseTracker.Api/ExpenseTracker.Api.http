@@ -1,6 +1,15 @@
-@ExpenseTracker.Api_HostAddress = http://localhost:5208
+@baseUrl = http://localhost:5208
 
-GET {{ExpenseTracker.Api_HostAddress}}/weatherforecast/
-Accept: application/json
+POST {{baseUrl}}/api/expenses
+Content-Type: application/json
+
+{
+  "description": "Groceries",
+  "amount": 42.75,
+  "category": "Food",
+  "date": "2026-10-28"
+}
 
 ###
+
+GET {{baseUrl}}/api/expenses
