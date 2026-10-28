@@ -1,1 +1,1 @@
-# expense-tracker
+![.NET CI](https://github.com/danijel88/expense-tracker/actions/workflows/dotnet.yml/badge.svg)
